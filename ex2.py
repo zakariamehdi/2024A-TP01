@@ -6,4 +6,9 @@ filtre= 0.2*quantite_eau
 lampes_UV= 0.6*quantite_eau
 chlore= 0.1*quantite_eau
 
-print("Voici les elements necessaires pour", quantite_eau,"L \n     -Filtre =", filtre,"\n     -Lampes UV=", lampes_UV, "\n     -Chlore=", chlore,"kg")
+
+
+print(f"Voici les elements necessaires pour {quantite_eau}L")
+print(f"-Filtre = {filtre:14}")
+print(f"-Lampes UV= {lampes_UV:12}" )
+print(f"-Chlore= {chlore:15}kg")
